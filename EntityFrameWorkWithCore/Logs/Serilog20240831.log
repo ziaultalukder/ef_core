@@ -1,0 +1,886 @@
+[2024-08-31 12:32:25.325 +06:00  DBG]  Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[2024-08-31 12:32:25.470 +06:00  DBG]  Hosting starting
+[2024-08-31 12:32:25.607 +06:00  INF]  User profile is available. Using 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-08-31 12:32:25.613 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-1bc457fc-042a-4060-a0e9-138beac0f8e0.xml'.
+[2024-08-31 12:32:25.659 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-2b0ee0e3-fdef-4e3c-ab91-475912b5cd99.xml'.
+[2024-08-31 12:32:25.669 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-8f48434d-14d4-4f89-bb9a-009887902b00.xml'.
+[2024-08-31 12:32:25.678 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-b7be5a74-2930-4c3a-b673-3861e44f1be7.xml'.
+[2024-08-31 12:32:25.691 +06:00  DBG]  Found key {1bc457fc-042a-4060-a0e9-138beac0f8e0}.
+[2024-08-31 12:32:25.695 +06:00  DBG]  Found key {2b0ee0e3-fdef-4e3c-ab91-475912b5cd99}.
+[2024-08-31 12:32:25.695 +06:00  DBG]  Found key {8f48434d-14d4-4f89-bb9a-009887902b00}.
+[2024-08-31 12:32:25.695 +06:00  DBG]  Found key {b7be5a74-2930-4c3a-b673-3861e44f1be7}.
+[2024-08-31 12:32:25.698 +06:00  DBG]  Considering key {8f48434d-14d4-4f89-bb9a-009887902b00} with expiration date 2024-09-22 14:20:36Z as default key.
+[2024-08-31 12:32:25.699 +06:00  DBG]  Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2024-08-31 12:32:25.700 +06:00  DBG]  Decrypting secret element using Windows DPAPI.
+[2024-08-31 12:32:25.701 +06:00  DBG]  Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2024-08-31 12:32:25.703 +06:00  DBG]  Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[2024-08-31 12:32:25.703 +06:00  DBG]  Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[2024-08-31 12:32:25.704 +06:00  DBG]  Using key {8f48434d-14d4-4f89-bb9a-009887902b00} as the default key.
+[2024-08-31 12:32:25.705 +06:00  DBG]  Key ring with default key {8f48434d-14d4-4f89-bb9a-009887902b00} was loaded during application startup.
+[2024-08-31 12:32:25.876 +06:00  DBG]  Loaded hosting startup assembly EntityFrameWorkWithCore
+[2024-08-31 12:32:25.876 +06:00  DBG]  Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+[2024-08-31 12:32:25.876 +06:00  DBG]  Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+[2024-08-31 12:32:25.877 +06:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-08-31 12:32:25.877 +06:00  INF]  Hosting environment: Development
+[2024-08-31 12:32:25.877 +06:00  INF]  Content root path: C:\Users\ziaul\source\repos\EntityFrameWorkWithCore\EntityFrameWorkWithCore
+[2024-08-31 12:32:25.877 +06:00  DBG]  Hosting started
+[2024-08-31 12:32:26.031 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:32991/swagger/index.html - null null
+[2024-08-31 12:32:26.141 +06:00  DBG]  Wildcard detected, all requests with hosts will be allowed.
+[2024-08-31 12:32:26.149 +06:00  DBG]  No candidates found for the request path '/swagger/index.html'
+[2024-08-31 12:32:26.150 +06:00  DBG]  Request did not match any endpoints
+[2024-08-31 12:32:26.202 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 12:32:26.242 +06:00  DBG]  Response markup is scheduled to include Browser Link script injection.
+[2024-08-31 12:32:26.243 +06:00  DBG]  Response markup is scheduled to include browser refresh script injection.
+[2024-08-31 12:32:26.283 +06:00  DBG]  Response markup was updated to include Browser Link script injection.
+[2024-08-31 12:32:26.284 +06:00  DBG]  Response markup was updated to include browser refresh script injection.
+[2024-08-31 12:32:26.289 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:32991/_framework/aspnetcore-browser-refresh.js - null null
+[2024-08-31 12:32:26.290 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:32991/swagger/index.html - 200 null text/html;charset=utf-8 260.9927ms
+[2024-08-31 12:32:26.293 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:32991/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 3.1362ms
+[2024-08-31 12:32:26.300 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:32991/_vs/browserLink - null null
+[2024-08-31 12:32:26.339 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:32991/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.5407ms
+[2024-08-31 12:32:26.501 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:32991/swagger/v1/swagger.json - null null
+[2024-08-31 12:32:26.501 +06:00  DBG]  No candidates found for the request path '/swagger/v1/swagger.json'
+[2024-08-31 12:32:26.501 +06:00  DBG]  Request did not match any endpoints
+[2024-08-31 12:32:26.502 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 12:32:26.584 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:32991/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 82.9662ms
+[2024-08-31 12:32:59.150 +06:00  DBG]  Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[2024-08-31 12:32:59.201 +06:00  DBG]  Hosting starting
+[2024-08-31 12:32:59.219 +06:00  INF]  User profile is available. Using 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-08-31 12:32:59.224 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-1bc457fc-042a-4060-a0e9-138beac0f8e0.xml'.
+[2024-08-31 12:32:59.229 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-2b0ee0e3-fdef-4e3c-ab91-475912b5cd99.xml'.
+[2024-08-31 12:32:59.229 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-8f48434d-14d4-4f89-bb9a-009887902b00.xml'.
+[2024-08-31 12:32:59.229 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-b7be5a74-2930-4c3a-b673-3861e44f1be7.xml'.
+[2024-08-31 12:32:59.231 +06:00  DBG]  Found key {1bc457fc-042a-4060-a0e9-138beac0f8e0}.
+[2024-08-31 12:32:59.232 +06:00  DBG]  Found key {2b0ee0e3-fdef-4e3c-ab91-475912b5cd99}.
+[2024-08-31 12:32:59.232 +06:00  DBG]  Found key {8f48434d-14d4-4f89-bb9a-009887902b00}.
+[2024-08-31 12:32:59.232 +06:00  DBG]  Found key {b7be5a74-2930-4c3a-b673-3861e44f1be7}.
+[2024-08-31 12:32:59.235 +06:00  DBG]  Considering key {8f48434d-14d4-4f89-bb9a-009887902b00} with expiration date 2024-09-22 14:20:36Z as default key.
+[2024-08-31 12:32:59.236 +06:00  DBG]  Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2024-08-31 12:32:59.237 +06:00  DBG]  Decrypting secret element using Windows DPAPI.
+[2024-08-31 12:32:59.237 +06:00  DBG]  Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2024-08-31 12:32:59.239 +06:00  DBG]  Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[2024-08-31 12:32:59.239 +06:00  DBG]  Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[2024-08-31 12:32:59.240 +06:00  DBG]  Using key {8f48434d-14d4-4f89-bb9a-009887902b00} as the default key.
+[2024-08-31 12:32:59.240 +06:00  DBG]  Key ring with default key {8f48434d-14d4-4f89-bb9a-009887902b00} was loaded during application startup.
+[2024-08-31 12:32:59.286 +06:00  DBG]  Loaded hosting startup assembly EntityFrameWorkWithCore
+[2024-08-31 12:32:59.286 +06:00  DBG]  Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+[2024-08-31 12:32:59.286 +06:00  DBG]  Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+[2024-08-31 12:32:59.286 +06:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-08-31 12:32:59.286 +06:00  INF]  Hosting environment: Development
+[2024-08-31 12:32:59.286 +06:00  INF]  Content root path: C:\Users\ziaul\source\repos\EntityFrameWorkWithCore\EntityFrameWorkWithCore
+[2024-08-31 12:32:59.287 +06:00  DBG]  Hosting started
+[2024-08-31 12:32:59.317 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:32991/swagger/index.html - null null
+[2024-08-31 12:32:59.374 +06:00  DBG]  Wildcard detected, all requests with hosts will be allowed.
+[2024-08-31 12:32:59.381 +06:00  DBG]  No candidates found for the request path '/swagger/index.html'
+[2024-08-31 12:32:59.382 +06:00  DBG]  Request did not match any endpoints
+[2024-08-31 12:32:59.416 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 12:32:59.469 +06:00  DBG]  Response markup is scheduled to include Browser Link script injection.
+[2024-08-31 12:32:59.471 +06:00  DBG]  Response markup is scheduled to include browser refresh script injection.
+[2024-08-31 12:32:59.501 +06:00  DBG]  Response markup was updated to include Browser Link script injection.
+[2024-08-31 12:32:59.502 +06:00  DBG]  Response markup was updated to include browser refresh script injection.
+[2024-08-31 12:32:59.506 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:32991/swagger/index.html - 200 null text/html;charset=utf-8 191.354ms
+[2024-08-31 12:32:59.525 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:32991/_framework/aspnetcore-browser-refresh.js - null null
+[2024-08-31 12:32:59.541 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:32991/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 8.3793ms
+[2024-08-31 12:32:59.542 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:32991/_vs/browserLink - null null
+[2024-08-31 12:32:59.586 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:32991/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.1037ms
+[2024-08-31 12:32:59.723 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:32991/swagger/v1/swagger.json - null null
+[2024-08-31 12:32:59.724 +06:00  DBG]  No candidates found for the request path '/swagger/v1/swagger.json'
+[2024-08-31 12:32:59.724 +06:00  DBG]  Request did not match any endpoints
+[2024-08-31 12:32:59.726 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 12:32:59.791 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:32991/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 68.0126ms
+[2024-08-31 13:06:59.516 +06:00  DBG]  Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[2024-08-31 13:06:59.580 +06:00  DBG]  Hosting starting
+[2024-08-31 13:06:59.598 +06:00  INF]  User profile is available. Using 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-08-31 13:06:59.602 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-1bc457fc-042a-4060-a0e9-138beac0f8e0.xml'.
+[2024-08-31 13:06:59.609 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-2b0ee0e3-fdef-4e3c-ab91-475912b5cd99.xml'.
+[2024-08-31 13:06:59.609 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-8f48434d-14d4-4f89-bb9a-009887902b00.xml'.
+[2024-08-31 13:06:59.609 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-b7be5a74-2930-4c3a-b673-3861e44f1be7.xml'.
+[2024-08-31 13:06:59.611 +06:00  DBG]  Found key {1bc457fc-042a-4060-a0e9-138beac0f8e0}.
+[2024-08-31 13:06:59.613 +06:00  DBG]  Found key {2b0ee0e3-fdef-4e3c-ab91-475912b5cd99}.
+[2024-08-31 13:06:59.613 +06:00  DBG]  Found key {8f48434d-14d4-4f89-bb9a-009887902b00}.
+[2024-08-31 13:06:59.613 +06:00  DBG]  Found key {b7be5a74-2930-4c3a-b673-3861e44f1be7}.
+[2024-08-31 13:06:59.616 +06:00  DBG]  Considering key {8f48434d-14d4-4f89-bb9a-009887902b00} with expiration date 2024-09-22 14:20:36Z as default key.
+[2024-08-31 13:06:59.617 +06:00  DBG]  Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2024-08-31 13:06:59.618 +06:00  DBG]  Decrypting secret element using Windows DPAPI.
+[2024-08-31 13:06:59.618 +06:00  DBG]  Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2024-08-31 13:06:59.620 +06:00  DBG]  Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[2024-08-31 13:06:59.620 +06:00  DBG]  Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[2024-08-31 13:06:59.621 +06:00  DBG]  Using key {8f48434d-14d4-4f89-bb9a-009887902b00} as the default key.
+[2024-08-31 13:06:59.621 +06:00  DBG]  Key ring with default key {8f48434d-14d4-4f89-bb9a-009887902b00} was loaded during application startup.
+[2024-08-31 13:06:59.668 +06:00  DBG]  Loaded hosting startup assembly EntityFrameWorkWithCore
+[2024-08-31 13:06:59.668 +06:00  DBG]  Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+[2024-08-31 13:06:59.669 +06:00  DBG]  Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+[2024-08-31 13:06:59.669 +06:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-08-31 13:06:59.669 +06:00  INF]  Hosting environment: Development
+[2024-08-31 13:06:59.669 +06:00  INF]  Content root path: C:\Users\ziaul\source\repos\EntityFrameWorkWithCore\EntityFrameWorkWithCore
+[2024-08-31 13:06:59.669 +06:00  DBG]  Hosting started
+[2024-08-31 13:06:59.694 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:32991/swagger/index.html - null null
+[2024-08-31 13:06:59.747 +06:00  DBG]  Wildcard detected, all requests with hosts will be allowed.
+[2024-08-31 13:06:59.755 +06:00  DBG]  No candidates found for the request path '/swagger/index.html'
+[2024-08-31 13:06:59.755 +06:00  DBG]  Request did not match any endpoints
+[2024-08-31 13:06:59.789 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:06:59.824 +06:00  DBG]  Response markup is scheduled to include Browser Link script injection.
+[2024-08-31 13:06:59.825 +06:00  DBG]  Response markup is scheduled to include browser refresh script injection.
+[2024-08-31 13:06:59.840 +06:00  DBG]  Response markup was updated to include Browser Link script injection.
+[2024-08-31 13:06:59.841 +06:00  DBG]  Response markup was updated to include browser refresh script injection.
+[2024-08-31 13:06:59.845 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:32991/swagger/index.html - 200 null text/html;charset=utf-8 153.1451ms
+[2024-08-31 13:06:59.849 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:32991/_framework/aspnetcore-browser-refresh.js - null null
+[2024-08-31 13:06:59.852 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:32991/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 3.3082ms
+[2024-08-31 13:06:59.857 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:32991/_vs/browserLink - null null
+[2024-08-31 13:06:59.885 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:32991/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.6719ms
+[2024-08-31 13:06:59.971 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:32991/swagger/v1/swagger.json - null null
+[2024-08-31 13:06:59.972 +06:00  DBG]  No candidates found for the request path '/swagger/v1/swagger.json'
+[2024-08-31 13:06:59.972 +06:00  DBG]  Request did not match any endpoints
+[2024-08-31 13:06:59.973 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:07:00.032 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:32991/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 60.2146ms
+[2024-08-31 13:07:13.047 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - null 0
+[2024-08-31 13:07:13.052 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:07:13.055 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/TokenGenerate' is valid for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:07:13.056 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:07:13.059 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:07:13.060 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:07:13.061 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:07:13.083 +06:00  INF]  Route matched with {action = "TokenGenerate", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TokenGenerate(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:07:13.084 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:07:13.084 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:07:13.085 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:07:13.085 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:07:13.085 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:07:13.086 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:07:13.218 +06:00  DBG]  An 'IServiceProvider' was created for internal use by Entity Framework.
+[2024-08-31 13:07:13.235 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:07:13.241 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' ...
+[2024-08-31 13:07:13.242 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ...
+[2024-08-31 13:07:13.243 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:07:13.243 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:07:13.243 +06:00  DBG]  Attempting to validate the bound parameter 'email' of type 'System.String' ...
+[2024-08-31 13:07:13.247 +06:00  DBG]  Done attempting to validate the bound parameter 'email' of type 'System.String'.
+[2024-08-31 13:07:13.281 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:07:13.282 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:07:13.282 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:07:13.282 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:07:13.283 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+[2024-08-31 13:07:13.283 +06:00  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2024-08-31 13:07:13.287 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore) in 199.4081ms
+[2024-08-31 13:07:13.287 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:07:13.289 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - 200 null text/plain; charset=utf-8 242.024ms
+[2024-08-31 13:07:24.184 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - null 0
+[2024-08-31 13:07:24.187 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:07:24.187 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/ValidateToken1' is valid for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:07:24.187 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:07:24.187 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:07:24.187 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:07:24.187 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:07:24.193 +06:00  INF]  Route matched with {action = "ValidateToken1", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ValidateToken1(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:07:24.193 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:07:24.193 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:07:24.193 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:07:24.193 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:07:24.193 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:07:24.193 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:07:24.199 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:07:24.199 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' ...
+[2024-08-31 13:07:24.199 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' using the name 'token' in request data ...
+[2024-08-31 13:07:24.200 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:07:24.200 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:07:24.200 +06:00  DBG]  Attempting to validate the bound parameter 'token' of type 'System.String' ...
+[2024-08-31 13:07:24.200 +06:00  DBG]  Done attempting to validate the bound parameter 'token' of type 'System.String'.
+[2024-08-31 13:07:24.231 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:07:24.232 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:07:24.232 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:07:24.232 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:07:24.232 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+[2024-08-31 13:07:24.232 +06:00  INF]  Executing ObjectResult, writing value of type 'EntityFrameWorkWithCore.Models.Result'.
+[2024-08-31 13:07:24.237 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore) in 43.6824ms
+[2024-08-31 13:07:24.237 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:07:24.237 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - 200 null application/json; charset=utf-8 53.1201ms
+[2024-08-31 13:13:17.128 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - null 0
+[2024-08-31 13:13:17.128 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:13:17.128 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/ValidateToken1' is valid for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:13:17.128 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:13:17.128 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:13:17.128 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:13:17.128 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:13:17.128 +06:00  INF]  Route matched with {action = "ValidateToken1", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ValidateToken1(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:13:17.128 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:13:17.128 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:13:17.128 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:13:17.128 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:13:17.129 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:13:17.129 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:13:17.130 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:13:17.130 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' ...
+[2024-08-31 13:13:17.130 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' using the name 'token' in request data ...
+[2024-08-31 13:13:17.130 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:13:17.130 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:13:17.130 +06:00  DBG]  Attempting to validate the bound parameter 'token' of type 'System.String' ...
+[2024-08-31 13:13:17.130 +06:00  DBG]  Done attempting to validate the bound parameter 'token' of type 'System.String'.
+[2024-08-31 13:13:17.192 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:13:17.192 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:13:17.192 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:13:17.192 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:13:17.193 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+[2024-08-31 13:13:17.193 +06:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-08-31 13:13:17.197 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore) in 68.2953ms
+[2024-08-31 13:13:17.197 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:13:17.197 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - 200 null application/json; charset=utf-8 73.2431ms
+[2024-08-31 13:14:53.017 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - null 0
+[2024-08-31 13:14:53.017 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:14:53.017 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/ValidateToken1' is valid for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:14:53.018 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:14:53.018 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:14:53.018 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:14:53.046 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:14:53.046 +06:00  INF]  Route matched with {action = "ValidateToken1", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ValidateToken1(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:14:53.046 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:14:53.047 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:14:53.047 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:14:53.047 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:14:53.047 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:14:53.047 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:14:53.047 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:14:53.047 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' ...
+[2024-08-31 13:14:53.047 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' using the name 'token' in request data ...
+[2024-08-31 13:14:53.047 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:14:53.047 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:14:53.047 +06:00  DBG]  Attempting to validate the bound parameter 'token' of type 'System.String' ...
+[2024-08-31 13:14:53.047 +06:00  DBG]  Done attempting to validate the bound parameter 'token' of type 'System.String'.
+[2024-08-31 13:14:53.068 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:14:53.068 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:14:53.068 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:14:53.068 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:14:53.068 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+[2024-08-31 13:14:53.068 +06:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-08-31 13:14:53.069 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore) in 21.9711ms
+[2024-08-31 13:14:53.069 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:14:53.069 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - 200 null application/json; charset=utf-8 88.1445ms
+[2024-08-31 13:22:17.052 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - null 0
+[2024-08-31 13:22:17.052 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:22:17.052 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/ValidateToken1' is valid for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:22:17.052 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:17.052 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:17.052 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:17.052 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:17.052 +06:00  INF]  Route matched with {action = "ValidateToken1", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ValidateToken1(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:17.052 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:17.053 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:17.054 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:17.054 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:17.054 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:17.054 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:17.054 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:17.055 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' ...
+[2024-08-31 13:22:17.055 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' using the name 'token' in request data ...
+[2024-08-31 13:22:17.055 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:17.055 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:17.055 +06:00  DBG]  Attempting to validate the bound parameter 'token' of type 'System.String' ...
+[2024-08-31 13:22:17.055 +06:00  DBG]  Done attempting to validate the bound parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:17.079 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:17.079 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:17.079 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:17.079 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:17.079 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+[2024-08-31 13:22:17.079 +06:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-08-31 13:22:17.079 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore) in 25.7816ms
+[2024-08-31 13:22:17.079 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:17.080 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - 200 null application/json; charset=utf-8 30.1611ms
+[2024-08-31 13:22:17.540 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - null 0
+[2024-08-31 13:22:17.540 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:22:17.540 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/ValidateToken1' is valid for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:22:17.540 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:17.541 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:17.541 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:17.541 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:17.541 +06:00  INF]  Route matched with {action = "ValidateToken1", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ValidateToken1(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:17.541 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:17.541 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:17.541 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:17.541 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:17.541 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:17.541 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:17.542 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:17.542 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' ...
+[2024-08-31 13:22:17.542 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' using the name 'token' in request data ...
+[2024-08-31 13:22:17.542 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:17.542 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:17.542 +06:00  DBG]  Attempting to validate the bound parameter 'token' of type 'System.String' ...
+[2024-08-31 13:22:17.542 +06:00  DBG]  Done attempting to validate the bound parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:17.565 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:17.565 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:17.565 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:17.565 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:17.565 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+[2024-08-31 13:22:17.565 +06:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-08-31 13:22:17.565 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore) in 23.8555ms
+[2024-08-31 13:22:17.565 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:17.566 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - 200 null application/json; charset=utf-8 25.4372ms
+[2024-08-31 13:22:17.983 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - null 0
+[2024-08-31 13:22:17.983 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:22:17.983 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/ValidateToken1' is valid for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:22:17.983 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:17.984 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:17.984 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:17.984 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:17.984 +06:00  INF]  Route matched with {action = "ValidateToken1", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ValidateToken1(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:17.984 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:17.984 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:17.984 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:17.984 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:17.984 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:17.984 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:17.984 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:17.984 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' ...
+[2024-08-31 13:22:17.984 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' using the name 'token' in request data ...
+[2024-08-31 13:22:17.984 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:17.984 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:17.984 +06:00  DBG]  Attempting to validate the bound parameter 'token' of type 'System.String' ...
+[2024-08-31 13:22:17.984 +06:00  DBG]  Done attempting to validate the bound parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:18.008 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:18.008 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:18.008 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:18.008 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:18.008 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+[2024-08-31 13:22:18.008 +06:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-08-31 13:22:18.008 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore) in 24.2902ms
+[2024-08-31 13:22:18.008 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:18.008 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - 200 null application/json; charset=utf-8 25.3319ms
+[2024-08-31 13:22:21.813 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - null 0
+[2024-08-31 13:22:21.813 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:21.813 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/TokenGenerate' is valid for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:21.813 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:21.814 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:21.814 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:21.814 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:21.814 +06:00  INF]  Route matched with {action = "TokenGenerate", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TokenGenerate(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:21.814 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:21.814 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:21.814 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:21.814 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:21.814 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:21.814 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:21.814 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:21.814 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:21.814 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ...
+[2024-08-31 13:22:21.814 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:21.815 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:21.815 +06:00  DBG]  Attempting to validate the bound parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:21.815 +06:00  DBG]  Done attempting to validate the bound parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:21.815 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:21.815 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:21.815 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:21.815 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:21.815 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+[2024-08-31 13:22:21.815 +06:00  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2024-08-31 13:22:21.816 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore) in 1.568ms
+[2024-08-31 13:22:21.816 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:21.816 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - 200 null text/plain; charset=utf-8 2.6455ms
+[2024-08-31 13:22:22.365 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - null 0
+[2024-08-31 13:22:22.365 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:22.365 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/TokenGenerate' is valid for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:22.365 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:22.365 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:22.365 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:22.365 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:22.365 +06:00  INF]  Route matched with {action = "TokenGenerate", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TokenGenerate(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:22.365 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:22.365 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:22.365 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:22.366 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:22.366 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:22.366 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:22.366 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:22.366 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:22.366 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ...
+[2024-08-31 13:22:22.366 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:22.366 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:22.367 +06:00  DBG]  Attempting to validate the bound parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:22.367 +06:00  DBG]  Done attempting to validate the bound parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:22.367 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:22.367 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:22.367 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:22.367 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:22.367 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+[2024-08-31 13:22:22.367 +06:00  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2024-08-31 13:22:22.368 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore) in 1.8333ms
+[2024-08-31 13:22:22.368 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:22.368 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - 200 null text/plain; charset=utf-8 3.1199ms
+[2024-08-31 13:22:22.822 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - null 0
+[2024-08-31 13:22:22.822 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:22.823 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/TokenGenerate' is valid for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:22.823 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:22.823 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:22.823 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:22.823 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:22.823 +06:00  INF]  Route matched with {action = "TokenGenerate", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TokenGenerate(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:22.823 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:22.823 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:22.823 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:22.823 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:22.823 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:22.823 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:22.823 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:22.823 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:22.823 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ...
+[2024-08-31 13:22:22.823 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:22.823 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:22.823 +06:00  DBG]  Attempting to validate the bound parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:22.823 +06:00  DBG]  Done attempting to validate the bound parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:22.824 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:22.824 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:22.824 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:22.824 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:22.824 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+[2024-08-31 13:22:22.824 +06:00  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2024-08-31 13:22:22.827 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore) in 3.8635ms
+[2024-08-31 13:22:22.827 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:22.827 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - 200 null text/plain; charset=utf-8 4.9064ms
+[2024-08-31 13:22:23.216 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - null 0
+[2024-08-31 13:22:23.217 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:23.217 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/TokenGenerate' is valid for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:23.217 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:23.217 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:23.217 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:23.217 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:23.217 +06:00  INF]  Route matched with {action = "TokenGenerate", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TokenGenerate(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:23.217 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:23.217 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:23.217 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:23.217 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:23.217 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:23.217 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:23.217 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:23.217 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:23.217 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ...
+[2024-08-31 13:22:23.217 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:23.217 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:23.218 +06:00  DBG]  Attempting to validate the bound parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:23.218 +06:00  DBG]  Done attempting to validate the bound parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:23.218 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:23.218 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:23.218 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:23.218 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:23.218 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+[2024-08-31 13:22:23.218 +06:00  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2024-08-31 13:22:23.219 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore) in 1.4054ms
+[2024-08-31 13:22:23.219 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:23.219 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - 200 null text/plain; charset=utf-8 2.3421ms
+[2024-08-31 13:22:23.563 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - null 0
+[2024-08-31 13:22:23.564 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:23.564 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/TokenGenerate' is valid for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:23.564 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:23.564 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:23.564 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:23.564 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:23.564 +06:00  INF]  Route matched with {action = "TokenGenerate", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TokenGenerate(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:23.564 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:23.564 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:23.564 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:23.564 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:23.564 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:23.564 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:23.564 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:23.564 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:23.564 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ...
+[2024-08-31 13:22:23.564 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:23.564 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:23.564 +06:00  DBG]  Attempting to validate the bound parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:23.564 +06:00  DBG]  Done attempting to validate the bound parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:23.565 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:23.565 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:23.565 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:23.565 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:23.565 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+[2024-08-31 13:22:23.565 +06:00  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2024-08-31 13:22:23.566 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore) in 1.9067ms
+[2024-08-31 13:22:23.566 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:23.567 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - 200 null text/plain; charset=utf-8 3.7468ms
+[2024-08-31 13:22:23.814 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - null 0
+[2024-08-31 13:22:23.814 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:23.814 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/TokenGenerate' is valid for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:23.814 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:23.814 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:23.814 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:23.815 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:23.815 +06:00  INF]  Route matched with {action = "TokenGenerate", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TokenGenerate(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:23.815 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:23.815 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:23.815 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:23.815 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:23.815 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:23.815 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:23.815 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:23.815 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:23.815 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ...
+[2024-08-31 13:22:23.815 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:23.815 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:23.815 +06:00  DBG]  Attempting to validate the bound parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:23.815 +06:00  DBG]  Done attempting to validate the bound parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:23.815 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:23.815 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:23.815 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:23.815 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:23.815 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+[2024-08-31 13:22:23.815 +06:00  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2024-08-31 13:22:23.816 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore) in 1.5538ms
+[2024-08-31 13:22:23.816 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:23.817 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - 200 null text/plain; charset=utf-8 2.5467ms
+[2024-08-31 13:22:24.021 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - null 0
+[2024-08-31 13:22:24.021 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:24.022 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/TokenGenerate' is valid for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:24.022 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:24.023 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:24.023 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:24.023 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:24.023 +06:00  INF]  Route matched with {action = "TokenGenerate", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TokenGenerate(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:24.023 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:24.023 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:24.023 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:24.023 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:24.023 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:24.023 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:24.023 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:24.023 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:24.023 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ...
+[2024-08-31 13:22:24.023 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:24.023 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:24.023 +06:00  DBG]  Attempting to validate the bound parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:24.023 +06:00  DBG]  Done attempting to validate the bound parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:24.024 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:24.024 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:24.024 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:24.024 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:24.024 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+[2024-08-31 13:22:24.024 +06:00  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2024-08-31 13:22:24.024 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore) in 1.5814ms
+[2024-08-31 13:22:24.025 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:24.025 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - 200 null text/plain; charset=utf-8 3.6785ms
+[2024-08-31 13:22:24.218 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - null 0
+[2024-08-31 13:22:24.218 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:24.218 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/TokenGenerate' is valid for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:24.218 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:24.218 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:24.218 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:24.219 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:24.219 +06:00  INF]  Route matched with {action = "TokenGenerate", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TokenGenerate(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:24.219 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:24.219 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:24.219 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:24.219 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:24.219 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:24.219 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:24.219 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:24.219 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:24.219 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ...
+[2024-08-31 13:22:24.219 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:24.219 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:24.219 +06:00  DBG]  Attempting to validate the bound parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:24.219 +06:00  DBG]  Done attempting to validate the bound parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:24.219 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:24.219 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:24.219 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:24.219 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:24.219 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+[2024-08-31 13:22:24.220 +06:00  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2024-08-31 13:22:24.220 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore) in 1.241ms
+[2024-08-31 13:22:24.220 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:24.220 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - 200 null text/plain; charset=utf-8 2.6932ms
+[2024-08-31 13:22:24.390 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - null 0
+[2024-08-31 13:22:24.390 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:24.390 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/TokenGenerate' is valid for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:24.390 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:24.390 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:24.390 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:24.390 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:24.390 +06:00  INF]  Route matched with {action = "TokenGenerate", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TokenGenerate(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:24.390 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:24.390 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:24.390 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:24.390 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:24.390 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:24.390 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:24.391 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:24.391 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:24.391 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ...
+[2024-08-31 13:22:24.391 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:24.391 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:24.391 +06:00  DBG]  Attempting to validate the bound parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:24.391 +06:00  DBG]  Done attempting to validate the bound parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:24.391 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:24.391 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:24.391 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:24.392 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:24.392 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+[2024-08-31 13:22:24.392 +06:00  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2024-08-31 13:22:24.393 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore) in 2.3762ms
+[2024-08-31 13:22:24.393 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:24.393 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - 200 null text/plain; charset=utf-8 3.4545ms
+[2024-08-31 13:22:24.575 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - null 0
+[2024-08-31 13:22:24.575 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:24.575 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/TokenGenerate' is valid for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:24.575 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:24.575 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:24.576 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:24.576 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:24.576 +06:00  INF]  Route matched with {action = "TokenGenerate", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TokenGenerate(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:24.576 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:24.576 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:24.576 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:24.576 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:24.576 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:24.576 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:24.576 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:24.576 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:24.576 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ...
+[2024-08-31 13:22:24.576 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:24.576 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:24.576 +06:00  DBG]  Attempting to validate the bound parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:24.576 +06:00  DBG]  Done attempting to validate the bound parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:24.576 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:24.576 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:24.576 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:24.576 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:24.576 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+[2024-08-31 13:22:24.576 +06:00  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2024-08-31 13:22:24.579 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore) in 3.1689ms
+[2024-08-31 13:22:24.579 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:24.580 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - 200 null text/plain; charset=utf-8 4.062ms
+[2024-08-31 13:22:24.744 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - null 0
+[2024-08-31 13:22:24.745 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:24.745 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/TokenGenerate' is valid for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:24.745 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:24.745 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:24.745 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:24.745 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:24.745 +06:00  INF]  Route matched with {action = "TokenGenerate", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TokenGenerate(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:24.745 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:24.745 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:24.745 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:24.745 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:24.745 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:24.745 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:24.745 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:24.745 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:24.745 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ...
+[2024-08-31 13:22:24.745 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:24.745 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:24.745 +06:00  DBG]  Attempting to validate the bound parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:24.745 +06:00  DBG]  Done attempting to validate the bound parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:24.746 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:24.746 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:24.746 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:24.746 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:24.746 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+[2024-08-31 13:22:24.746 +06:00  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2024-08-31 13:22:24.747 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore) in 2.0525ms
+[2024-08-31 13:22:24.747 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:24.747 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - 200 null text/plain; charset=utf-8 2.9861ms
+[2024-08-31 13:22:24.929 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - null 0
+[2024-08-31 13:22:24.929 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:24.930 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/TokenGenerate' is valid for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:24.930 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:24.930 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:24.930 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:24.930 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:24.930 +06:00  INF]  Route matched with {action = "TokenGenerate", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TokenGenerate(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:24.930 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:24.930 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:24.930 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:24.930 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:24.930 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:24.930 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:24.931 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:24.931 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:24.931 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ...
+[2024-08-31 13:22:24.931 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:24.931 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:24.931 +06:00  DBG]  Attempting to validate the bound parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:24.931 +06:00  DBG]  Done attempting to validate the bound parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:24.932 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:24.932 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:24.932 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:24.932 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:24.932 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+[2024-08-31 13:22:24.932 +06:00  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2024-08-31 13:22:24.932 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore) in 2.1298ms
+[2024-08-31 13:22:24.932 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:24.933 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - 200 null text/plain; charset=utf-8 3.192ms
+[2024-08-31 13:22:25.086 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - null 0
+[2024-08-31 13:22:25.087 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:25.087 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/TokenGenerate' is valid for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:25.087 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:25.087 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:25.087 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:25.087 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:25.087 +06:00  INF]  Route matched with {action = "TokenGenerate", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TokenGenerate(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:25.087 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:25.087 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:25.087 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:25.087 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:25.087 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:25.087 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:25.087 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:25.087 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:25.087 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ...
+[2024-08-31 13:22:25.087 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:25.087 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:25.087 +06:00  DBG]  Attempting to validate the bound parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:25.087 +06:00  DBG]  Done attempting to validate the bound parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:25.088 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:25.088 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:25.088 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:25.088 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:25.088 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+[2024-08-31 13:22:25.088 +06:00  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2024-08-31 13:22:25.092 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore) in 5.2066ms
+[2024-08-31 13:22:25.092 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:25.094 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - 200 null text/plain; charset=utf-8 7.5698ms
+[2024-08-31 13:22:25.320 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - null 0
+[2024-08-31 13:22:25.320 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:25.320 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/TokenGenerate' is valid for the request path '/api/Accounts/TokenGenerate'
+[2024-08-31 13:22:25.320 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:25.320 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:25.320 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:25.320 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:25.320 +06:00  INF]  Route matched with {action = "TokenGenerate", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] TokenGenerate(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:25.320 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:25.320 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:25.320 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:25.320 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:25.320 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:25.320 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:25.320 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:25.320 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:25.320 +06:00  DBG]  Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ...
+[2024-08-31 13:22:25.321 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:25.321 +06:00  DBG]  Done attempting to bind parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:25.321 +06:00  DBG]  Attempting to validate the bound parameter 'email' of type 'System.String' ...
+[2024-08-31 13:22:25.321 +06:00  DBG]  Done attempting to validate the bound parameter 'email' of type 'System.String'.
+[2024-08-31 13:22:25.321 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:25.321 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:25.321 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:25.321 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:25.321 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+[2024-08-31 13:22:25.321 +06:00  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2024-08-31 13:22:25.323 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore) in 2.5829ms
+[2024-08-31 13:22:25.323 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.TokenGenerate (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:25.324 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/TokenGenerate?email=info%40gmail.com - 200 null text/plain; charset=utf-8 3.9897ms
+[2024-08-31 13:22:27.262 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - null 0
+[2024-08-31 13:22:27.262 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:22:27.262 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/ValidateToken1' is valid for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:22:27.262 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:27.262 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:27.263 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:27.263 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:27.263 +06:00  INF]  Route matched with {action = "ValidateToken1", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ValidateToken1(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:27.263 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:27.263 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:27.263 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:27.263 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:27.263 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:27.263 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:27.263 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:27.263 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' ...
+[2024-08-31 13:22:27.263 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' using the name 'token' in request data ...
+[2024-08-31 13:22:27.263 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:27.263 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:27.263 +06:00  DBG]  Attempting to validate the bound parameter 'token' of type 'System.String' ...
+[2024-08-31 13:22:27.263 +06:00  DBG]  Done attempting to validate the bound parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:27.300 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:27.300 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:27.300 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:27.300 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:27.300 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+[2024-08-31 13:22:27.300 +06:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-08-31 13:22:27.300 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore) in 37.685ms
+[2024-08-31 13:22:27.300 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:27.301 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - 200 null application/json; charset=utf-8 38.4755ms
+[2024-08-31 13:22:27.667 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - null 0
+[2024-08-31 13:22:27.667 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:22:27.667 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/ValidateToken1' is valid for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:22:27.667 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:27.667 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:27.667 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:27.667 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:27.667 +06:00  INF]  Route matched with {action = "ValidateToken1", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ValidateToken1(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:27.667 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:27.667 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:27.667 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:27.667 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:27.667 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:27.667 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:27.667 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:27.667 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' ...
+[2024-08-31 13:22:27.667 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' using the name 'token' in request data ...
+[2024-08-31 13:22:27.667 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:27.667 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:27.667 +06:00  DBG]  Attempting to validate the bound parameter 'token' of type 'System.String' ...
+[2024-08-31 13:22:27.667 +06:00  DBG]  Done attempting to validate the bound parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:27.692 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:27.692 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:27.692 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:27.692 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:27.692 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+[2024-08-31 13:22:27.692 +06:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-08-31 13:22:27.692 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore) in 25.0662ms
+[2024-08-31 13:22:27.692 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:27.692 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - 200 null application/json; charset=utf-8 25.8161ms
+[2024-08-31 13:22:27.999 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - null 0
+[2024-08-31 13:22:27.999 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:22:27.999 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/ValidateToken1' is valid for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:22:27.999 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:27.999 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:27.999 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:27.999 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:27.999 +06:00  INF]  Route matched with {action = "ValidateToken1", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ValidateToken1(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:27.999 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:27.999 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:27.999 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:27.999 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:27.999 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:27.999 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:28.000 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:28.000 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' ...
+[2024-08-31 13:22:28.000 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' using the name 'token' in request data ...
+[2024-08-31 13:22:28.000 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:28.000 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:28.000 +06:00  DBG]  Attempting to validate the bound parameter 'token' of type 'System.String' ...
+[2024-08-31 13:22:28.000 +06:00  DBG]  Done attempting to validate the bound parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:28.023 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:28.023 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:28.023 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:28.023 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:28.023 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+[2024-08-31 13:22:28.023 +06:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-08-31 13:22:28.024 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore) in 24.5163ms
+[2024-08-31 13:22:28.024 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:28.024 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - 200 null application/json; charset=utf-8 25.2939ms
+[2024-08-31 13:22:28.223 +06:00  INF]  Request starting HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - null 0
+[2024-08-31 13:22:28.223 +06:00  DBG]  1 candidate(s) found for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:22:28.223 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)' with route pattern 'api/Accounts/ValidateToken1' is valid for the request path '/api/Accounts/ValidateToken1'
+[2024-08-31 13:22:28.223 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:28.223 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-08-31 13:22:28.223 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-08-31 13:22:28.223 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:28.223 +06:00  INF]  Route matched with {action = "ValidateToken1", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ValidateToken1(System.String) on controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore).
+[2024-08-31 13:22:28.223 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-08-31 13:22:28.223 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-08-31 13:22:28.223 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-08-31 13:22:28.223 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-08-31 13:22:28.223 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-08-31 13:22:28.224 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:28.224 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.AccountsController (EntityFrameWorkWithCore)
+[2024-08-31 13:22:28.224 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' ...
+[2024-08-31 13:22:28.224 +06:00  DBG]  Attempting to bind parameter 'token' of type 'System.String' using the name 'token' in request data ...
+[2024-08-31 13:22:28.224 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:28.224 +06:00  DBG]  Done attempting to bind parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:28.224 +06:00  DBG]  Attempting to validate the bound parameter 'token' of type 'System.String' ...
+[2024-08-31 13:22:28.224 +06:00  DBG]  Done attempting to validate the bound parameter 'token' of type 'System.String'.
+[2024-08-31 13:22:28.246 +06:00  DBG]  List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[2024-08-31 13:22:28.246 +06:00  DBG]  No information found on request to perform content negotiation.
+[2024-08-31 13:22:28.246 +06:00  DBG]  Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[2024-08-31 13:22:28.246 +06:00  DBG]  Attempting to select the first formatter in the output formatters list which can write the result.
+[2024-08-31 13:22:28.246 +06:00  DBG]  Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+[2024-08-31 13:22:28.246 +06:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-08-31 13:22:28.247 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore) in 23.211ms
+[2024-08-31 13:22:28.247 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.AccountsController.ValidateToken1 (EntityFrameWorkWithCore)'
+[2024-08-31 13:22:28.247 +06:00  INF]  Request finished HTTP/1.1 POST http://localhost:32991/api/Accounts/ValidateToken1?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImluZm9AZ21haWwuY29tIiwibmJmIjoxNzI1MDg4MDMzLCJleHAiOjE3MjUwODgwODMsImlhdCI6MTcyNTA4ODAzM30.9L9xT8pvTAo08GhYpv55erWSt1ft-OKD2dHLtttbrFw - 200 null application/json; charset=utf-8 24.2594ms

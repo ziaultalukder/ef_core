@@ -1,0 +1,498 @@
+[2024-07-27 16:09:22.277 +06:00  DBG]  Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[2024-07-27 16:09:22.318 +06:00  DBG]  Hosting starting
+[2024-07-27 16:09:22.341 +06:00  INF]  User profile is available. Using 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-07-27 16:09:22.344 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-1bc457fc-042a-4060-a0e9-138beac0f8e0.xml'.
+[2024-07-27 16:09:22.346 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-2b0ee0e3-fdef-4e3c-ab91-475912b5cd99.xml'.
+[2024-07-27 16:09:22.347 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-8f48434d-14d4-4f89-bb9a-009887902b00.xml'.
+[2024-07-27 16:09:22.347 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-b7be5a74-2930-4c3a-b673-3861e44f1be7.xml'.
+[2024-07-27 16:09:22.348 +06:00  DBG]  Found key {1bc457fc-042a-4060-a0e9-138beac0f8e0}.
+[2024-07-27 16:09:22.350 +06:00  DBG]  Found key {2b0ee0e3-fdef-4e3c-ab91-475912b5cd99}.
+[2024-07-27 16:09:22.350 +06:00  DBG]  Found key {8f48434d-14d4-4f89-bb9a-009887902b00}.
+[2024-07-27 16:09:22.350 +06:00  DBG]  Found key {b7be5a74-2930-4c3a-b673-3861e44f1be7}.
+[2024-07-27 16:09:22.352 +06:00  DBG]  Considering key {8f48434d-14d4-4f89-bb9a-009887902b00} with expiration date 2024-09-22 14:20:36Z as default key.
+[2024-07-27 16:09:22.353 +06:00  DBG]  Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2024-07-27 16:09:22.354 +06:00  DBG]  Decrypting secret element using Windows DPAPI.
+[2024-07-27 16:09:22.355 +06:00  DBG]  Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2024-07-27 16:09:22.356 +06:00  DBG]  Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[2024-07-27 16:09:22.357 +06:00  DBG]  Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[2024-07-27 16:09:22.357 +06:00  DBG]  Using key {8f48434d-14d4-4f89-bb9a-009887902b00} as the default key.
+[2024-07-27 16:09:22.357 +06:00  DBG]  Key ring with default key {8f48434d-14d4-4f89-bb9a-009887902b00} was loaded during application startup.
+[2024-07-27 16:09:22.435 +06:00  INF]  Now listening on: http://localhost:5091
+[2024-07-27 16:09:22.435 +06:00  DBG]  Loaded hosting startup assembly EntityFrameWorkWithCore
+[2024-07-27 16:09:22.435 +06:00  DBG]  Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+[2024-07-27 16:09:22.435 +06:00  DBG]  Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+[2024-07-27 16:09:22.435 +06:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-07-27 16:09:22.435 +06:00  INF]  Hosting environment: Development
+[2024-07-27 16:09:22.435 +06:00  INF]  Content root path: C:\Users\ziaul\source\repos\EntityFrameWorkWithCore\EntityFrameWorkWithCore
+[2024-07-27 16:09:22.435 +06:00  DBG]  Hosting started
+[2024-07-27 16:09:22.490 +06:00  DBG]  Connection id "0HN5E4GNTS4DB" accepted.
+[2024-07-27 16:09:22.490 +06:00  DBG]  Connection id "0HN5E4GNTS4DC" accepted.
+[2024-07-27 16:09:22.492 +06:00  DBG]  Connection id "0HN5E4GNTS4DC" started.
+[2024-07-27 16:09:22.493 +06:00  DBG]  Connection id "0HN5E4GNTS4DB" started.
+[2024-07-27 16:09:22.517 +06:00  DBG]  Connection id "0HN5E4GNTS4DB" received FIN.
+[2024-07-27 16:09:22.517 +06:00  DBG]  Connection id "0HN5E4GNTS4DC" received FIN.
+[2024-07-27 16:09:22.519 +06:00  DBG]  Connection id "0HN5E4GNTS4DB" sending FIN because: "The Socket transport's send loop completed gracefully."
+[2024-07-27 16:09:22.519 +06:00  DBG]  Connection id "0HN5E4GNTS4DC" sending FIN because: "The Socket transport's send loop completed gracefully."
+[2024-07-27 16:09:22.523 +06:00  DBG]  Connection id "0HN5E4GNTS4DB" disconnecting.
+[2024-07-27 16:09:22.523 +06:00  DBG]  Connection id "0HN5E4GNTS4DC" disconnecting.
+[2024-07-27 16:09:22.524 +06:00  DBG]  Connection id "0HN5E4GNTS4DB" stopped.
+[2024-07-27 16:09:22.524 +06:00  DBG]  Connection id "0HN5E4GNTS4DC" stopped.
+[2024-07-27 16:09:22.622 +06:00  DBG]  Connection id "0HN5E4GNTS4DD" accepted.
+[2024-07-27 16:09:22.622 +06:00  DBG]  Connection id "0HN5E4GNTS4DD" started.
+[2024-07-27 16:09:22.623 +06:00  DBG]  Connection id "0HN5E4GNTS4DE" accepted.
+[2024-07-27 16:09:22.623 +06:00  DBG]  Connection id "0HN5E4GNTS4DE" started.
+[2024-07-27 16:09:22.648 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+[2024-07-27 16:09:22.706 +06:00  DBG]  Wildcard detected, all requests with hosts will be allowed.
+[2024-07-27 16:09:22.717 +06:00  DBG]  No candidates found for the request path '/swagger/index.html'
+[2024-07-27 16:09:22.718 +06:00  DBG]  Request did not match any endpoints
+[2024-07-27 16:09:22.788 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-07-27 16:09:22.841 +06:00  DBG]  Response markup is scheduled to include Browser Link script injection.
+[2024-07-27 16:09:22.842 +06:00  DBG]  Response markup is scheduled to include browser refresh script injection.
+[2024-07-27 16:09:22.850 +06:00  DBG]  Response markup was updated to include Browser Link script injection.
+[2024-07-27 16:09:22.851 +06:00  DBG]  Response markup was updated to include browser refresh script injection.
+[2024-07-27 16:09:22.851 +06:00  DBG]  Connection id "0HN5E4GNTS4DD" completed keep alive response.
+[2024-07-27 16:09:22.852 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 207.0954ms
+[2024-07-27 16:09:22.868 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+[2024-07-27 16:09:22.868 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+[2024-07-27 16:09:22.869 +06:00  DBG]  Connection id "0HN5E4GNTS4DD" completed keep alive response.
+[2024-07-27 16:09:22.869 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 1.6743ms
+[2024-07-27 16:09:22.885 +06:00  DBG]  Connection id "0HN5E4GNTS4DF" accepted.
+[2024-07-27 16:09:22.885 +06:00  DBG]  Connection id "0HN5E4GNTS4DF" started.
+[2024-07-27 16:09:22.885 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+[2024-07-27 16:09:22.885 +06:00  DBG]  Connection id "0HN5E4GNTS4DF" completed keep alive response.
+[2024-07-27 16:09:22.885 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 0.2603ms
+[2024-07-27 16:09:22.898 +06:00  DBG]  Connection id "0HN5E4GNTS4DE" completed keep alive response.
+[2024-07-27 16:09:22.899 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.9632ms
+[2024-07-27 16:09:22.985 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+[2024-07-27 16:09:22.986 +06:00  DBG]  No candidates found for the request path '/swagger/v1/swagger.json'
+[2024-07-27 16:09:22.986 +06:00  DBG]  Request did not match any endpoints
+[2024-07-27 16:09:22.986 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-07-27 16:09:23.045 +06:00  DBG]  Connection id "0HN5E4GNTS4DE" completed keep alive response.
+[2024-07-27 16:09:23.045 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 60.0027ms
+[2024-07-27 16:09:23.918 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+[2024-07-27 16:09:23.927 +06:00  DBG]  Connection id "0HN5E4GNTS4DF" completed keep alive response.
+[2024-07-27 16:09:23.927 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.8508ms
+[2024-07-27 16:09:29.243 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:5091/api/Student/GetStudent - null null
+[2024-07-27 16:09:29.247 +06:00  DBG]  1 candidate(s) found for the request path '/api/Student/GetStudent'
+[2024-07-27 16:09:29.249 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.StudentController.GetStudent (EntityFrameWorkWithCore)' with route pattern 'api/Student/GetStudent' is valid for the request path '/api/Student/GetStudent'
+[2024-07-27 16:09:29.250 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.StudentController.GetStudent (EntityFrameWorkWithCore)'
+[2024-07-27 16:09:29.252 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-07-27 16:09:29.253 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-07-27 16:09:29.255 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.StudentController.GetStudent (EntityFrameWorkWithCore)'
+[2024-07-27 16:09:29.267 +06:00  INF]  Route matched with {action = "GetStudent", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStudent() on controller EntityFrameWorkWithCore.Controllers.StudentController (EntityFrameWorkWithCore).
+[2024-07-27 16:09:29.268 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-07-27 16:09:29.268 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-07-27 16:09:29.268 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-07-27 16:09:29.268 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-07-27 16:09:29.268 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-07-27 16:09:29.269 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.StudentController (EntityFrameWorkWithCore)
+[2024-07-27 16:09:29.323 +06:00  DBG]  An 'IServiceProvider' was created for internal use by Entity Framework.
+[2024-07-27 16:09:29.343 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.StudentController (EntityFrameWorkWithCore)
+[2024-07-27 16:09:29.552 +06:00  DBG]  Entity Framework Core 8.0.6 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.6' with options: None
+[2024-07-27 16:09:29.564 +06:00  DBG]  Compiling query expression: 
+'DbSet<Student>()'
+[2024-07-27 16:09:29.638 +06:00  DBG]  Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Student>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Student.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Student.Address (string) Required, 1], [Property: Student.DepartmentId (int) Required, 2], [Property: Student.Description (string) Required, 3], [Property: Student.Name (string) Required, 4] }
+        SELECT s.Id, s.Address, s.DepartmentId, s.Description, s.Name
+        FROM Students AS s), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Student>, 
+    EntityFrameWorkWithCore.Context.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+[2024-07-27 16:09:29.649 +06:00  DBG]  Creating DbConnection.
+[2024-07-27 16:09:29.651 +06:00  DBG]  Created DbConnection. (1ms).
+[2024-07-27 16:09:29.652 +06:00  DBG]  Opening connection to database 'EFTestDB1' on server 'ZIAUL'.
+[2024-07-27 16:09:39.775 +06:00  ERR]  An error occurred using the connection to database 'EFTestDB1' on server 'ZIAUL'.
+[2024-07-27 16:09:39.786 +06:00  ERR]  An exception occurred while iterating over the results of a query for context type 'EntityFrameWorkWithCore.Context.ApplicationDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "EFTestDB1" requested by the login. The login failed.
+Login failed for user 'NECGROUP\ziaul'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:724042df-8545-48d5-8bbb-df2940f75c27
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "EFTestDB1" requested by the login. The login failed.
+Login failed for user 'NECGROUP\ziaul'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:724042df-8545-48d5-8bbb-df2940f75c27
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+[2024-07-27 16:09:39.839 +06:00  ERR]  An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+[2024-07-27 16:09:39.857 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.StudentController.GetStudent (EntityFrameWorkWithCore) in 10586.9929ms
+[2024-07-27 16:09:39.858 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.StudentController.GetStudent (EntityFrameWorkWithCore)'
+[2024-07-27 16:09:39.859 +06:00  ERR]  An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "EFTestDB1" requested by the login. The login failed.
+Login failed for user 'NECGROUP\ziaul'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:724042df-8545-48d5-8bbb-df2940f75c27
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at EntityFrameWorkWithCore.Controllers.StudentController.GetStudent() in C:\Users\ziaul\source\repos\EntityFrameWorkWithCore\EntityFrameWorkWithCore\Controllers\StudentController.cs:line 47
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-07-27 16:09:39.866 +06:00  DBG]  Connection id "0HN5E4GNTS4DE" completed keep alive response.
+[2024-07-27 16:09:39.868 +06:00  DBG]  'ApplicationDbContext' disposed.
+[2024-07-27 16:09:39.870 +06:00  DBG]  Disposing connection to database 'EFTestDB1' on server 'ZIAUL'.
+[2024-07-27 16:09:39.873 +06:00  DBG]  Disposed connection to database '' on server '' (0ms).
+[2024-07-27 16:09:39.873 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:5091/api/Student/GetStudent - 500 null text/plain; charset=utf-8 10630.8297ms
+[2024-07-27 16:55:39.240 +06:00  DBG]  Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[2024-07-27 16:55:39.280 +06:00  DBG]  Hosting starting
+[2024-07-27 16:55:39.298 +06:00  INF]  User profile is available. Using 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-07-27 16:55:39.301 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-1bc457fc-042a-4060-a0e9-138beac0f8e0.xml'.
+[2024-07-27 16:55:39.303 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-2b0ee0e3-fdef-4e3c-ab91-475912b5cd99.xml'.
+[2024-07-27 16:55:39.303 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-8f48434d-14d4-4f89-bb9a-009887902b00.xml'.
+[2024-07-27 16:55:39.303 +06:00  DBG]  Reading data from file 'C:\Users\ziaul\AppData\Local\ASP.NET\DataProtection-Keys\key-b7be5a74-2930-4c3a-b673-3861e44f1be7.xml'.
+[2024-07-27 16:55:39.305 +06:00  DBG]  Found key {1bc457fc-042a-4060-a0e9-138beac0f8e0}.
+[2024-07-27 16:55:39.306 +06:00  DBG]  Found key {2b0ee0e3-fdef-4e3c-ab91-475912b5cd99}.
+[2024-07-27 16:55:39.307 +06:00  DBG]  Found key {8f48434d-14d4-4f89-bb9a-009887902b00}.
+[2024-07-27 16:55:39.307 +06:00  DBG]  Found key {b7be5a74-2930-4c3a-b673-3861e44f1be7}.
+[2024-07-27 16:55:39.309 +06:00  DBG]  Considering key {8f48434d-14d4-4f89-bb9a-009887902b00} with expiration date 2024-09-22 14:20:36Z as default key.
+[2024-07-27 16:55:39.310 +06:00  DBG]  Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2024-07-27 16:55:39.312 +06:00  DBG]  Decrypting secret element using Windows DPAPI.
+[2024-07-27 16:55:39.312 +06:00  DBG]  Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[2024-07-27 16:55:39.314 +06:00  DBG]  Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[2024-07-27 16:55:39.314 +06:00  DBG]  Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[2024-07-27 16:55:39.315 +06:00  DBG]  Using key {8f48434d-14d4-4f89-bb9a-009887902b00} as the default key.
+[2024-07-27 16:55:39.315 +06:00  DBG]  Key ring with default key {8f48434d-14d4-4f89-bb9a-009887902b00} was loaded during application startup.
+[2024-07-27 16:55:39.381 +06:00  INF]  Now listening on: http://localhost:5091
+[2024-07-27 16:55:39.381 +06:00  DBG]  Loaded hosting startup assembly EntityFrameWorkWithCore
+[2024-07-27 16:55:39.381 +06:00  DBG]  Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+[2024-07-27 16:55:39.381 +06:00  DBG]  Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+[2024-07-27 16:55:39.381 +06:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-07-27 16:55:39.381 +06:00  INF]  Hosting environment: Development
+[2024-07-27 16:55:39.381 +06:00  INF]  Content root path: C:\Users\ziaul\source\repos\EntityFrameWorkWithCore\EntityFrameWorkWithCore
+[2024-07-27 16:55:39.381 +06:00  DBG]  Hosting started
+[2024-07-27 16:55:39.434 +06:00  DBG]  Connection id "0HN5E5AJGS15E" received FIN.
+[2024-07-27 16:55:39.434 +06:00  DBG]  Connection id "0HN5E5AJGS15F" received FIN.
+[2024-07-27 16:55:39.440 +06:00  DBG]  Connection id "0HN5E5AJGS15F" accepted.
+[2024-07-27 16:55:39.440 +06:00  DBG]  Connection id "0HN5E5AJGS15E" accepted.
+[2024-07-27 16:55:39.441 +06:00  DBG]  Connection id "0HN5E5AJGS15F" started.
+[2024-07-27 16:55:39.441 +06:00  DBG]  Connection id "0HN5E5AJGS15E" started.
+[2024-07-27 16:55:39.443 +06:00  DBG]  Connection id "0HN5E5AJGS15F" sending FIN because: "The Socket transport's send loop completed gracefully."
+[2024-07-27 16:55:39.443 +06:00  DBG]  Connection id "0HN5E5AJGS15E" sending FIN because: "The Socket transport's send loop completed gracefully."
+[2024-07-27 16:55:39.445 +06:00  DBG]  Connection id "0HN5E5AJGS15F" disconnecting.
+[2024-07-27 16:55:39.445 +06:00  DBG]  Connection id "0HN5E5AJGS15E" disconnecting.
+[2024-07-27 16:55:39.446 +06:00  DBG]  Connection id "0HN5E5AJGS15F" stopped.
+[2024-07-27 16:55:39.446 +06:00  DBG]  Connection id "0HN5E5AJGS15E" stopped.
+[2024-07-27 16:55:39.533 +06:00  DBG]  Connection id "0HN5E5AJGS15G" accepted.
+[2024-07-27 16:55:39.533 +06:00  DBG]  Connection id "0HN5E5AJGS15G" started.
+[2024-07-27 16:55:39.533 +06:00  DBG]  Connection id "0HN5E5AJGS15H" accepted.
+[2024-07-27 16:55:39.533 +06:00  DBG]  Connection id "0HN5E5AJGS15H" started.
+[2024-07-27 16:55:39.560 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+[2024-07-27 16:55:39.610 +06:00  DBG]  Wildcard detected, all requests with hosts will be allowed.
+[2024-07-27 16:55:39.620 +06:00  DBG]  No candidates found for the request path '/swagger/index.html'
+[2024-07-27 16:55:39.620 +06:00  DBG]  Request did not match any endpoints
+[2024-07-27 16:55:39.658 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-07-27 16:55:39.708 +06:00  DBG]  Response markup is scheduled to include Browser Link script injection.
+[2024-07-27 16:55:39.709 +06:00  DBG]  Response markup is scheduled to include browser refresh script injection.
+[2024-07-27 16:55:39.718 +06:00  DBG]  Response markup was updated to include Browser Link script injection.
+[2024-07-27 16:55:39.719 +06:00  DBG]  Response markup was updated to include browser refresh script injection.
+[2024-07-27 16:55:39.720 +06:00  DBG]  Connection id "0HN5E5AJGS15G" completed keep alive response.
+[2024-07-27 16:55:39.721 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 163.3916ms
+[2024-07-27 16:55:39.734 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+[2024-07-27 16:55:39.735 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+[2024-07-27 16:55:39.737 +06:00  DBG]  Connection id "0HN5E5AJGS15G" completed keep alive response.
+[2024-07-27 16:55:39.737 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 3.1304ms
+[2024-07-27 16:55:39.747 +06:00  DBG]  Connection id "0HN5E5AJGS15I" accepted.
+[2024-07-27 16:55:39.747 +06:00  DBG]  Connection id "0HN5E5AJGS15I" started.
+[2024-07-27 16:55:39.747 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+[2024-07-27 16:55:39.747 +06:00  DBG]  Connection id "0HN5E5AJGS15I" completed keep alive response.
+[2024-07-27 16:55:39.748 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 0.3624ms
+[2024-07-27 16:55:39.761 +06:00  DBG]  Connection id "0HN5E5AJGS15H" completed keep alive response.
+[2024-07-27 16:55:39.761 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.9483ms
+[2024-07-27 16:55:39.859 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+[2024-07-27 16:55:39.860 +06:00  DBG]  No candidates found for the request path '/swagger/v1/swagger.json'
+[2024-07-27 16:55:39.860 +06:00  DBG]  Request did not match any endpoints
+[2024-07-27 16:55:39.861 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-07-27 16:55:39.913 +06:00  DBG]  Connection id "0HN5E5AJGS15H" completed keep alive response.
+[2024-07-27 16:55:39.913 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 54.005ms
+[2024-07-27 16:55:40.790 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+[2024-07-27 16:55:40.798 +06:00  DBG]  Connection id "0HN5E5AJGS15I" completed keep alive response.
+[2024-07-27 16:55:40.798 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.4157ms
+[2024-07-27 16:55:44.937 +06:00  INF]  Request starting HTTP/1.1 GET http://localhost:5091/api/Student/GetStudent - null null
+[2024-07-27 16:55:44.941 +06:00  DBG]  1 candidate(s) found for the request path '/api/Student/GetStudent'
+[2024-07-27 16:55:44.944 +06:00  DBG]  Endpoint 'EntityFrameWorkWithCore.Controllers.StudentController.GetStudent (EntityFrameWorkWithCore)' with route pattern 'api/Student/GetStudent' is valid for the request path '/api/Student/GetStudent'
+[2024-07-27 16:55:44.944 +06:00  DBG]  Request matched endpoint 'EntityFrameWorkWithCore.Controllers.StudentController.GetStudent (EntityFrameWorkWithCore)'
+[2024-07-27 16:55:44.947 +06:00  DBG]  AuthenticationScheme: Bearer was not authenticated.
+[2024-07-27 16:55:44.948 +06:00  DBG]  Static files was skipped as the request already matched an endpoint.
+[2024-07-27 16:55:44.949 +06:00  INF]  Executing endpoint 'EntityFrameWorkWithCore.Controllers.StudentController.GetStudent (EntityFrameWorkWithCore)'
+[2024-07-27 16:55:44.960 +06:00  INF]  Route matched with {action = "GetStudent", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStudent() on controller EntityFrameWorkWithCore.Controllers.StudentController (EntityFrameWorkWithCore).
+[2024-07-27 16:55:44.961 +06:00  DBG]  Execution plan of authorization filters (in the following order): ["None"]
+[2024-07-27 16:55:44.961 +06:00  DBG]  Execution plan of resource filters (in the following order): ["None"]
+[2024-07-27 16:55:44.961 +06:00  DBG]  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[2024-07-27 16:55:44.961 +06:00  DBG]  Execution plan of exception filters (in the following order): ["None"]
+[2024-07-27 16:55:44.961 +06:00  DBG]  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[2024-07-27 16:55:44.961 +06:00  DBG]  Executing controller factory for controller EntityFrameWorkWithCore.Controllers.StudentController (EntityFrameWorkWithCore)
+[2024-07-27 16:55:45.010 +06:00  DBG]  An 'IServiceProvider' was created for internal use by Entity Framework.
+[2024-07-27 16:55:45.029 +06:00  DBG]  Executed controller factory for controller EntityFrameWorkWithCore.Controllers.StudentController (EntityFrameWorkWithCore)
+[2024-07-27 16:55:45.230 +06:00  DBG]  Entity Framework Core 8.0.6 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.6' with options: None
+[2024-07-27 16:55:45.241 +06:00  DBG]  Compiling query expression: 
+'DbSet<Student>()'
+[2024-07-27 16:55:45.312 +06:00  DBG]  Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Student>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Student.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Student.Address (string) Required, 1], [Property: Student.DepartmentId (int) Required, 2], [Property: Student.Description (string) Required, 3], [Property: Student.Name (string) Required, 4] }
+        SELECT s.Id, s.Address, s.DepartmentId, s.Description, s.Name
+        FROM Students AS s), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Student>, 
+    EntityFrameWorkWithCore.Context.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+[2024-07-27 16:55:45.322 +06:00  DBG]  Creating DbConnection.
+[2024-07-27 16:55:45.324 +06:00  DBG]  Created DbConnection. (1ms).
+[2024-07-27 16:55:45.325 +06:00  DBG]  Opening connection to database 'EFTestDB1' on server 'ZIAUL'.
+[2024-07-27 16:55:55.444 +06:00  ERR]  An error occurred using the connection to database 'EFTestDB1' on server 'ZIAUL'.
+[2024-07-27 16:55:55.454 +06:00  ERR]  An exception occurred while iterating over the results of a query for context type 'EntityFrameWorkWithCore.Context.ApplicationDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "EFTestDB1" requested by the login. The login failed.
+Login failed for user 'NECGROUP\ziaul'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:c3644e46-44d5-47d3-a6ce-87a304f1204f
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "EFTestDB1" requested by the login. The login failed.
+Login failed for user 'NECGROUP\ziaul'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:c3644e46-44d5-47d3-a6ce-87a304f1204f
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+[2024-07-27 16:55:55.488 +06:00  ERR]  An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+[2024-07-27 16:55:55.505 +06:00  INF]  Executed action EntityFrameWorkWithCore.Controllers.StudentController.GetStudent (EntityFrameWorkWithCore) in 10542.2221ms
+[2024-07-27 16:55:55.505 +06:00  INF]  Executed endpoint 'EntityFrameWorkWithCore.Controllers.StudentController.GetStudent (EntityFrameWorkWithCore)'
+[2024-07-27 16:55:55.506 +06:00  ERR]  An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "EFTestDB1" requested by the login. The login failed.
+Login failed for user 'NECGROUP\ziaul'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:c3644e46-44d5-47d3-a6ce-87a304f1204f
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at EntityFrameWorkWithCore.Controllers.StudentController.GetStudent() in C:\Users\ziaul\source\repos\EntityFrameWorkWithCore\EntityFrameWorkWithCore\Controllers\StudentController.cs:line 47
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-07-27 16:55:55.514 +06:00  DBG]  Connection id "0HN5E5AJGS15H" completed keep alive response.
+[2024-07-27 16:55:55.516 +06:00  DBG]  'ApplicationDbContext' disposed.
+[2024-07-27 16:55:55.517 +06:00  DBG]  Disposing connection to database 'EFTestDB1' on server 'ZIAUL'.
+[2024-07-27 16:55:55.520 +06:00  DBG]  Disposed connection to database '' on server '' (0ms).
+[2024-07-27 16:55:55.520 +06:00  INF]  Request finished HTTP/1.1 GET http://localhost:5091/api/Student/GetStudent - 500 null text/plain; charset=utf-8 10583.3594ms

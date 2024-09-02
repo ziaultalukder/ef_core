@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ziaul\\source\\repos\\EntityFrameWorkWithCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A9C1A8F-4B95-44D9-8CB7-BD0FEDDB406A}|EntityFrameWorkWithCore\\EntityFrameWorkWithCore.csproj|c:\\users\\ziaul\\source\\repos\\entityframeworkwithcore\\entityframeworkwithcore\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6A9C1A8F-4B95-44D9-8CB7-BD0FEDDB406A}|EntityFrameWorkWithCore\\EntityFrameWorkWithCore.csproj|solutionrelative:entityframeworkwithcore\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\ziaul\\source\\repos\\EntityFrameWorkWithCore\\EntityFrameWorkWithCore\\Dockerfile",
+              "RelativeDocumentMoniker": "EntityFrameWorkWithCore\\Dockerfile",
+              "ToolTip": "C:\\Users\\ziaul\\source\\repos\\EntityFrameWorkWithCore\\EntityFrameWorkWithCore\\Dockerfile",
+              "RelativeToolTip": "EntityFrameWorkWithCore\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-02T07:35:25.118Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
