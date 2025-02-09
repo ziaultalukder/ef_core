@@ -70,5 +70,11 @@ namespace EntityFrameWorkWithCore.Controllers
         {
             return Ok("MethodFromPatch1Brach");
         }
+        
+        [HttpGet("[action]")]
+        public async Task<IActionResult> MethodFromPatch1BrachTest263()
+        {
+            return Ok("MethodFromPatch1Brach");
+        }
     }
 }
