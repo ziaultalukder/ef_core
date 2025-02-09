@@ -1,0 +1,20 @@
+name: Main CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    uses: ./.github/workflows/build.yml  # Calls the build workflow
+  test:
+    uses: ./.github/workflows/test.yml   # Calls the test workflow
+    needs: build  # Runs after build
+  deploy:
+    uses: ./.github/workflows/deploy.yml # Calls the deploy workflow
+    needs: test  # Runs after test
+    if: github.ref == 'refs/heads/main'  # Deploy only on main branch
