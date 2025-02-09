@@ -64,5 +64,11 @@ namespace EntityFrameWorkWithCore.Controllers
             throw new NotImplementedException("MethodFromPatch1Brach");
 
         }
+        
+        [HttpGet("[action]")]
+        public async Task<IActionResult> MethodFromPatch1BrachTest258963()
+        {
+            return Ok("MethodFromPatch1Brach");
+        }
     }
 }
