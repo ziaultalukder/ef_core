@@ -49,19 +49,32 @@ namespace EntityFrameWorkWithCore.Controllers
         [HttpGet("[action]")]
         public async Task<IActionResult> GetStudent1()
         {
-            throw new NotImplementedException("this method is not implement");
+            return Ok("this method is not implement");
+        }
+
+        [HttpGet("[action]")]
+        public async Task<IActionResult> GetStudent1FromBranch2()
+        {
+            return Ok("this method is not implement");
+        }
+
+        [HttpGet("[action]")]
+        public async Task<IActionResult> MethodFromPatch1Brach()
+        {
+            return Ok("MethodFromPatch1Brach");
+
         }
         
         [HttpGet("[action]")]
-
-        public async Task<IActionResult> GetStudent1FromBranch2()
+        public async Task<IActionResult> MethodFromPatch1BrachTest258963()
         {
-            throw new NotImplementedException("this method is not implement");
-
-        public async Task<IActionResult> MethodFromPatch1Brach()
+            return Ok("MethodFromPatch1Brach");
+        }
+        
+        [HttpGet("[action]")]
+        public async Task<IActionResult> MethodFromPatch1BrachTest263()
         {
-            throw new NotImplementedException("MethodFromPatch1Brach");
-
+            return Ok("MethodFromPatch1Brach");
         }
     }
 }
