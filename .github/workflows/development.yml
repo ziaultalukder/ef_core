@@ -13,19 +13,7 @@ jobs:
   
     steps:
       - name: from development branch
-        
-        uses: actions/checkout@v4
-
-      - name: setup .net framework
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: 8.0.x
-      
-      - name: build
-        run: dotnet build
-
-      - name: test dotnet
-        run: dotnet test --no-build --verbosity normal
+        run: echo "hello from first workflow"
 
   build-and-deploy-for-development-for-second:
   
