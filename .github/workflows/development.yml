@@ -6,7 +6,7 @@ on:
       - development
 jobs:
   
-  build-and-deploy-for development:
+  build-and-deploy-for-development:
   
     runs-on: ubuntu-latest
   
