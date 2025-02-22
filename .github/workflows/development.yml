@@ -8,10 +8,10 @@ jobs:
   
   build-and-deploy-for development:
   
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
   
-  steps:
-- name: from development branch
-  run : | 
-    echo "hello"
+    steps:
+      - name: from development branch
+        run : | 
+          echo "hello"
 
