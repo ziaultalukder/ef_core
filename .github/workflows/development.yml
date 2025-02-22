@@ -12,6 +12,16 @@ jobs:
   
     steps:
       - name: from development branch
-        run : | 
-          echo "hello"
+        
+        uses: actions/checkout@v4
+
+      - name: setup .net framework
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: build dotnet
+        run: dotnet build --no-restore
+
+      - name: test dotnet
+        run: dotnet test --no-build --verbosity normal
 
