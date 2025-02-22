@@ -1,11 +1,9 @@
-name: from development branch
+name: workflow development branch
 
 on:
   push:
-    branches: ["development"]
-  pull_request:
-    branches: ["development"]
-
+    branches:
+      - development
 jobs:
   
   build-and-deploy-for development:
