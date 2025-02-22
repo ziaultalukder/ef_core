@@ -30,7 +30,7 @@ jobs:
   build-and-deploy-for-development-for-second:
   
     runs-on: ubuntu-latest
-  
+    needs: [build-and-deploy-for-development]
     steps:
       - name: from development branch
         
