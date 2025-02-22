@@ -76,7 +76,6 @@ namespace EntityFrameWorkWithCore.Controllers
         {
             return Ok("MethodFromPatch1Brach");
         }
-        
         [HttpGet("[action]")]
         public async Task<IActionResult> MethodFromPatch1BrachTest113150()
         {
