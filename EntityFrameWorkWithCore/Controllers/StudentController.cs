@@ -76,10 +76,17 @@ namespace EntityFrameWorkWithCore.Controllers
         {
             return Ok("MethodFromPatch1Brach");
         }
+
         [HttpGet("[action]")]
         public async Task<IActionResult> MethodFromPatch1BrachTest113150()
         {
             return Ok("MethodFromPatch1BrachTest113150");
+        }
+        
+        [HttpGet("[action]")]
+        public async Task<IActionResult> DeleteStudentPermamently()
+        {
+            return Ok("success");
         }
     }
 }
