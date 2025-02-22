@@ -1,7 +1,9 @@
 name: workflow development branch
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+    - development
 
 jobs:
   
