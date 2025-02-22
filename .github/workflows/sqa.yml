@@ -5,7 +5,7 @@ on:
     branches: 
       - Testing
 
-  jobs:
+jobs:
     
     wait-testing-result-sqa-team:
     
